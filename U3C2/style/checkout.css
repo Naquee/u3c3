@@ -1,0 +1,64 @@
+#navbar{
+    display: flex;
+    float:right; 
+}
+#navbar>button{  
+    width: 60px;
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgb(110, 110, 211);
+    border-radius: 10px;
+    color: aqua; 
+}
+#count{
+    width: 20px;
+    border: 1px solid black;
+    height: 25px;
+    margin-right: 20px;
+    border-radius: 5px;
+    margin-top: 3px;
+    background-color: rgb(255, 251, 0);
+    color: red;
+    padding: 5px; 
+}
+#menu{
+    display: grid;
+    margin: auto;
+    padding-top: 30px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+#menu>div{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    height: 350px;
+    width: 300px;
+    border: 1px solid rgb(22, 21, 21);
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(148, 140, 140);
+}
+img{
+    height: 200px;
+    width: 95%;
+}
+a{
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid black;
+    background-color: blueviolet;
+    margin-right: 20px;
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+#addtocart{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 31%;
+    background-color: aqua;
+    border-radius: 6px;
+
+}
